@@ -1,0 +1,53 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: fit-content;
+    margin: auto;
+}
+
+.titulo {
+    background-color: #330066;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.item1 {
+    background-color: #CCCCff;
+}
+
+
+.item {
+    background-color: #CCCCff;
+    text-align: center;
+}
+
+.subTitle {
+    background-color: blueviolet;
+    color: #FFFFFF;
+}
+
+.item:hover, .item1:hover {
+    background-color: #660099;
+    color: white;
+}
+
+.tbh {
+    background-color: #FF99FF;
+}
+
+.tag {
+    font-size: 120%;
+}
+
+table, th {
+    border: solid #663399;
+    margin: 10px;
+    padding: 2px;
+    empty-cells: hide;
+}
+
+td {
+    border: solid #9999FF;
+    padding: 7px;
+}

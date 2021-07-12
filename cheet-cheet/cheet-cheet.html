@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML TABLE CHEATSHEET</title>
+        <link href="./cheet.css" type:"text/css" rel="stylesheet">
+    </head>
+    <body>
+    <div id="table">
+        <table>    
+            <thead>
+                <tr class="titulo">
+                    <th colspan="4"><h2>HTML CHEAT SHEET</h2></th>
+                </tr>
+            </thead>
+            <tbody>
+            <!--basic html structure-->
+            <div id="basic">
+                <tr>
+                    <th colspan="4" class="subTitle">Basic HTML Structure</th>
+                </tr>
+                <tr class="item1">
+                    <td colspan="4" class="tag"><pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+        &lt;title&gt;website title&lt;/title&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    content of website ...
+    &lt;/body&gt;
+&lt;/html&gt;
+                    </pre></td>
+                </tr>
+            </div>
+            <!--Common Tags Table Area-->            
+            <div id="common">
+                <!--common tabel title-->
+                <tr class="subTitle">
+                    <th colspan="4">COMMON TAGS</th>
+                </tr>
+                <!--common table heads-->
+                <tr class="tbh">
+                    <th>OPENING TAG</th>
+                    <th>CLOSING TAG</th>
+                    <th>NAME</th>
+                    <th>DESCRIPTION</th>
+                </tr>
+                <!--h-->
+                <tr class="item">
+                    <td class="tag">&lt;h&gt;</td>
+                    <td class="tag">&lt;/h&gt;</td>
+                    <td>HEADING</td>
+                    <td>Heading<br>(h1 for largest to h6 for smallest)</td>
+                </tr>
+                <!--p-->
+                <tr class="item">
+                    <td class="tag">&lt;p&gt;</td>
+                    <td class="tag">&lt;/p&gt;</td>
+                    <td>PARAGRAPH</td>
+                    <td>Paragraph of Text.<br>Each &lt;p&gt; 
+                        will create<br>a separate paragraph</td>
+                </tr>
+                <!--b-->
+                <tr class="item">
+                    <td class="tag">&lt;b&gt;</td>
+                    <td class="tag">&lt;/b&gt;</td>
+                    <td>BOLD</td>
+                    <td>Make text between tags <strong>bold</strong></td>
+                </tr>
+                <!--i-->
+                <tr class="item">
+                    <td class="tag">&lt;i&gt;</td>
+                    <td class="tag">&lt;/i&gt;</td>
+                    <td>ITALIC</td>
+                    <td>Make text between tags <i>italic.</i>
+                        <br>The tag &lt;em&gt; will also do the same.
+                    </td>
+                </tr>
+                <!--a href-->
+                <tr class="item">
+                    <td colspan="2" class="tag">&lt;a href="url"&gt;&lt;/a&gt;</td>
+                    <td>LINK</td>
+                    <td>Create a link to another page or website. 
+                        The name of the link can be placed between 
+                        the opening and closing tags.
+                    </td>
+                </tr>
+                <!--div-->
+                <tr class="item">
+                        <td class="tag">&lt;div&gt;</td>
+                        <td class="tag">&lt;/div&gt;</td>
+                        <td>DIV</td>
+                        <td>Divide up page content into sections, and applying styles</td>
+                </tr>
+                <!--image-->
+                <tr class="item">
+                    <td colspan="2" class="tag">&lt;img sec="filename.jpg"&gt;</td>
+                    <td>IMAGE</td>
+                    <td>Show an image</td>
+                </tr>
+                <!--ul-->
+                <tr class="item">
+                    <td class="tag">&lt;ul&gt;</td>
+                    <td class="tag">&lt;/ul&gt;</td>
+                    <td>UNORDERED<br>LIST</td>
+                    <td>Unordered, bullet point list.</td>
+                </tr>
+                <!--ol-->
+                <tr class="item">
+                    <td class="tag">&lt;ol&gt;</td>
+                    <td class="tag">&lt;/ol&gt;</td>
+                    <td>ORDERED<br>LIST</td>
+                    <td>Ordered, numbered list.</td>
+                </tr>
+                <!--li-->
+                <tr class="item">
+                    <td class="tag">&lt;li&gt;</td>
+                    <td class="tag">&lt;/li&gt;</td>
+                    <td>LIST ITEM</td>
+                    <td>Used in conjunction with Unordered 
+                        and Ordered lists. &lt;li&gt; and 
+                        &lt;/li&gt; hold the data for the list.
+                    </td>
+                </tr>
+                <!--br-->
+                <tr class="item">
+                    <td class="tag">&lt;br&gt;</td>
+                    <td class="tag">no closing tag</td>
+                    <td>BREAK</td>
+                    <td>Line Break (forces a new line).</td>
+                </tr>
+                <!--span-->
+                <tr class="item">
+                    <td class="tag">&lt;span&gt;</td>
+                    <td class="tag">&lt;/span&gt;</td>
+                    <td>SPAN</td>
+                    <td>Can change the text within the span tags.
+                        Use with CSS to change attributes, 
+                        for example: <br>&lt;span style="color:red"&gt;
+                        <span style="color: red"><strong>red</strong></span>
+                        &lt;/span&gt;
+                    </td>
+                </tr>
+            </div>
+            <!--Text Formatting Table Area-->
+            <div id="textFormat">
+                <th colspan="4" class="subTitle">TEXT FORMATTING</th>
+                <tr id="textFormatColHeads">
+                    <th class="tbh">OPENING TAG</th>
+                    <th class="tbh">CLOSING TAG</th>
+                    <th colspan="2" class="tbh">DESCRIPTION</th>
+                </tr>
+                <!--h tag-->
+                <tr class="item">
+                    <td class="tag">&lt;h&gt;</td>
+                    <td class="tag">&lt;/h&gt;</td>
+                    <td colspan="2">Heading (h1 for largest to h6 for smallest)</td>
+                </tr>
+                <!--bold-->
+                <tr class="item">
+                    <td class="tag">&lt;b&gt;</td>
+                    <td class="tag">&lt;/b&gt;</td>
+                    <td colspan="2"><b>BOLD</b> text</Td>
+                </tr>
+                <!--italic-->
+                <tr class="item">
+                    <td class="tag">&lt;i&gt;</td>
+                    <td class="tag">&lt;/i&gt;</td>
+                    <td colspan="2"><i>ITALIC</i> text</td>
+                </tr>
+                <!--underline-->
+                <tr class="item">
+                    <td class="tag">&lt;u&gt;</td>
+                    <td class="tag">&lt;/u&gt;</td>
+                    <td colspan="2"><u>UNDELRINE</u> text</td>
+                </tr>
+                <!--strikeout-->
+                <tr class="item">
+                    <td class="tag">&lt;strike&gt;</td>
+                    <td class="tag">&lt;/strike&gt;</td>
+                    <td colspan="2"><strike>STRIKEOUT</strike> text</td>
+                </tr>
+                <!--superscript-->
+                <tr class="item">
+                    <td class="tag">&lt;sup&gt;</td>
+                    <td class="tag">&lt;/sup&gt;</td>
+                    <td colspan="2"><sup>SUPERSCRIPT</sup> text. <sup>Smaller text placed above normal text.</sup></td>
+                </tr>
+                <!--subscript-->
+                <tr class="item">
+                    <td class="tag">&lt;sub&gt;</td>
+                    <td class="tag">&lt;/sub&gt;</td>
+                    <td colspan="2"><sub>SUBSCRIPT</sub> text. <sub>Smaller text placed below normal text.</sub></td>
+                </tr>
+                <!--small-->
+                <tr class="item">
+                    <td class="tag">&lt;small&gt;</td>
+                    <td class="tag">&lt;/small&gt;</td>
+                    <td colspan="2"><small>SMALL - FINEPRINT SIZE</small> text</td>
+                </tr>
+                <!--typewriter-->
+                <tr class="item">
+                    <td class="tag">&lt;tt&gt;</td>
+                    <td class="tag">&lt;/tt&gt;</td>
+                    <td colspan="2"><tt>TYPEWRITER</tt> text</td>
+                </tr>
+                <!--Pre-->
+                <tr class="item">
+                    <td class="tag">&lt;pre&gt;</td>
+                    <td class="tag">&lt;/pre&gt;</td>
+                    <td colspan="2"><pre>Pre-Formatted</pre> text</td>
+                </tr>
+                <!--Emphasis-->
+                <tr class="item">
+                    <td class="tag">&lt;em&gt;</td>
+                    <td class="tag">&lt;/em&gt;</td>
+                    <td colspan="2"><em>Emphasis</em> text. Shown as <em>italic</em> in most browsers.</td>
+                </tr>
+                <!--font-->
+                <tr class="item">
+                    <td class="tag">&lt;font&gt;</td>
+                    <td class="tag">&lt;/font&gt;</td>
+                    <td colspan="2">Font tag. Obsolete, use CSS instead.</td>
+                </tr>
+            </div>
+            <!--Section Divisions-->
+            <div id="sectionDivisions">
+                <th class="subTitle" colspan="4">SECTION DIVISIONS</th>
+                <tr>    
+                    <th class="tbh">OPENING TAG</th>
+                    <th class="tbh">CLOSING TAG</th>
+                    <th class="tbh" colspan="2">DESCRIPTION</th>
+                </tr>
+                <!--div-->
+                <tr class="item">
+                    <td class="tag">&lt;div&gt;</td>
+                    <td class="tag">&lt;/div&gt;</td>
+                    <td colspan="2">Divide up page content into sections, and applying styles</td>
+                </tr>
+                <!--span-->
+                <tr class="item">
+                    <td class="tag">&lt;span&gt;</td>
+                    <td class="tag">&lt;/span&gt;</td>
+                    <td colspan="2">Can change the text within the span tags. Use with CSS to change attributes, for example:
+                        &lt;span style="color:red"&gt;<span style="color:red"> red </span>&lt;/span&gt;</td>
+                </tr>
+                <!--p-->
+                <tr class="item">
+                    <td class="tag">&lt;p&gt;</td>
+                    <td class="tag">&lt;/p&gt;</td>
+                    <td colspan="2">Paragraph of Text.
+                        Each <strong>&lt;p&gt;</strong> will create
+                        a separate paragraph</td>
+                </tr>
+                <!--br-->
+                <tr class="item">
+                    <td class="tag">&lt;br&gt;</td>
+                    <td class="tag">NO CLOSING TAG</td>
+                    <td colspan="2">Line Break (forces a new line to be created)</td>
+                </tr>
+                <!--nobr-->
+                <tr class="item">
+                    <td class="tag">&lt;nobr&gt;</td>
+                    <td class="tag">&lt;/nobr&gt;</td>
+                    <td colspan="2">Line Break: tag used to instruct the browser not to break the specified text (such as the usual line wrap that occurs at the right edge of the browser window).</td>
+                </tr>
+                <!--hr-->
+                <tr class="item">
+                    <td class="tag">&lt;hr&gt;</td>
+                    <td class="tag">NO CLOSING TAG</td>
+                    <td colspan="2">Basic Horizontal<hr>Line</hr></td>
+                </tr>
+            </div>
+            <!--hr Tag Attributes-->
+            <div id="hrTagAttributes">
+                <!--hr Tag Attributes Title-->
+                <tr>
+                    <td colspan="2"></td>
+                    <th class="subTitle" colspan="2">&lt;hr&gt; TAG ATTRIBUTES</th>
+                </tr>
+                <!--hr size px-->
+                <tr class="item">
+                    <td colspan="2"></td>
+                    <td>&lt;hr size=" "&gt;</td>
+                    <td>Line Thickness in pixels. For example: 5px<hr size="5px"></td>
+                </tr>
+                <!--hr width px-->
+                <tr class="item">
+                    <td colspan="2"></td>
+                    <td>&lt;hr width=" "&gt;</td>
+                    <td>Line Width in pixels. Example Below: 100px<hr width="100px"></td>
+                </tr>
+                <!--hr width %-->
+                <tr class="item">
+                    <td colspan="2"></td>
+                    <td>&lt;hr width="%"&gt;</td>
+                    <td>Line Width as a percentage. For Example: 35%<hr width="35%"></td>
+                </tr>
+                <!--hr color-->
+                <tr class="item">
+                    <td colspan="2"></td>
+                    <td>&lt;hr color&gt;</td>
+                    <td>Line Color. Example: <hr color="red"></td>
+                </tr>
+                <!--hr align-->
+                <tr class="item">
+                    <td colspan="2"></td>
+                    <td>&lt;hr align=" "&gt;</td>
+                    <td>Horizontal Alignment:<hr>
+                        <br><tt>LEFT at 30px size:</tt><hr width="30px" align="left">
+                        <br><tt>CENTER at 30px size:</tt><hr width="30px" align="center">
+                        <br><tt>RIGHT at 30px size:</tt><hr width="30px" align="right"></td>
+                </tr>
+                <!--hr noshade-->
+                <tr class="item">
+                    <td colspan="2"></td>
+                    <td>&lt;hr noshade&gt;</td>
+                    <td>No 3D cut-out. Displays as a solid line.<br>Example:<hr noshade></td>
+                </tr>
+            </div>
+            </tbody>
+        </table>
+    </div>
+    </body>
+</html>
