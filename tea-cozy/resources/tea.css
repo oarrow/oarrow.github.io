@@ -50,19 +50,40 @@ li a {
     background-image: url("./img-mission-background.jpg");
     background-repeat:no-repeat;
     background-position: center;
-    display: inline-flex;
+    background-size: cover;
+    display: flex;
+    align-content: center;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    width: 1200px;
-    min-height: 700px;
-    align-items: center;
     margin-top: 69px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 700px;
+    max-width: 1200px;
+    overflow-x: hidden;
+   
 }
 
-.center-text, h2, h4 {
-    background-color: #000;
+#center-text{
     width: 100%;
-    margin: 0;
-    padding: 5px;;
+    background-color: #000;
+}
+
+.teas {
+    max-width: 1000px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.teas img {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+}
+
+.caption {
+    display: block;
+    margin: 10px;
 }
