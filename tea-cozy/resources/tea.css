@@ -1,0 +1,39 @@
+html {
+    background-color: #000;
+}
+
+#header {
+    max-height: 69px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+}
+
+#logo {
+    max-height: 50px;
+    float: left;
+    flex-shrink: 0;
+    margin: 10px;
+}
+
+nav {
+    float: right;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    text-decoration: underline;
+    padding: 14px 16px;
+}
