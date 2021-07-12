@@ -46,6 +46,10 @@ li a {
     padding: 14px 16px;
 }
 
+a:visited {
+    text-decoration: none;
+}
+
 #mission {
     background-image: url("./img-mission-background.jpg");
     background-repeat:no-repeat;
