@@ -42,12 +42,8 @@ li {
 li a {
     display: block;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: underline; color: seashell;
     padding: 14px 16px;
-}
-
-a:visited {
-    text-decoration: none;
 }
 
 #mission {
