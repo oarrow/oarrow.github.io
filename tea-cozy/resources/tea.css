@@ -46,7 +46,7 @@ li a {
     padding: 14px 16px;
 }
 
-.mission {
+#mission {
     background-image: url("./img-mission-background.jpg");
     background-repeat:no-repeat;
     background-position: center;
@@ -87,3 +87,4 @@ li a {
     display: block;
     margin: 10px;
 }
+
