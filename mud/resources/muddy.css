@@ -1,7 +1,7 @@
 html {
     max-width: 700px;
     margin: auto;
-    background-color: brown;
+    background-color: rgb(85, 24, 0);
 }
 
 body {
@@ -10,15 +10,17 @@ body {
 
 /* Nav Bar */
 nav {
+    position: sticky;
+    top: 0;
     display: flex;
     height: 36px;
     width: auto;
     align-items: center;
     justify-content: space-between;
     border-bottom: 1px solid #000;
-    background-color: white;
-    z-index: 1;
+    background-color: #000;
     padding: 5px 18px;
+    border-bottom: 1px solid #F4870F;
 }
 
 .logo {
@@ -30,12 +32,11 @@ ul, li {
     list-style: none;
     text-transform: uppercase;
     padding: 10px;
-    color: #000
 }
 
-.nav-right a:link {
+.nav-right a {
     text-decoration: none;
-    color:black;
+    color:#F4870F;
 }
 
 .nav-right a:hover {
@@ -44,4 +45,48 @@ ul, li {
 
 .nav-right a:active {
     color: darkred;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+}
+
+.head-logo-back {
+    display: flex;
+    background-image: url(./wolfgang-hasselmann-7xEEADgBOeM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.head-logo {
+    height: 75px;
+}
+
+header h4 {
+    background-color: #000;
+    border-top: 1px solid #F4870F;
+    color: #F4870F;
+    text-align: center;
+    width: auto;
+    padding: 18px;
+    margin: 0;
+}
+
+/* Main Area */
+main {
+    margin: 0px 0px 0px 0px;
+}
+
+.featured {
+    background-color: #a15d35;;
+    height: 700px;
 }
