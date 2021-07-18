@@ -219,8 +219,8 @@ footer {
     padding: 10px 25px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
     body {
-        max-width: 400px;
+        max-width: 480px;
     }
 }
