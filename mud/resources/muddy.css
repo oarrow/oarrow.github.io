@@ -6,6 +6,7 @@ html {
 
 body {
     margin-top: 0;
+    margin-bottom: 0;
 }
 
 /* Nav Bar */
@@ -85,7 +86,6 @@ header h4 {
 main {
     display: flex;
     flex-direction: column;
-    width: auto;
     height: auto;
     background-color: #ebd5c3;
 }
@@ -97,7 +97,6 @@ main {
     justify-content: center;
     align-items: center;
     height: auto;
-    width: auto;
     margin: 5px;
 }
 
@@ -144,7 +143,77 @@ main {
 
 .more {
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: auto;
-    height: 200px;
-    background-color: #c5b7aa;    
+    height: auto;
+    padding-bottom: 25px;
+    align-items: center;
+    justify-content: center;
+    background-color: #a17e5d;    
 }
+
+.more h2 {
+    text-align: center;
+    background-color: rgb(71, 44, 22);
+    color: #F4870F;
+    margin-top: 0;
+    padding: 10px;
+    font-family: almaq-rough, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.prod {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    background-color: #613e21;
+    color: #F4870F;
+    border: 2px solid #ffbd86;
+}
+
+.prodtext {
+    width: 100px;
+    padding-right: 5px;
+}
+
+.prodtext h3{
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.more a{
+    color: #ffe1c1;
+}
+
+.prodtext a:hover {
+    color: #000;
+}
+
+.prodtext a:active {
+    color: #FFF
+}
+
+.products img {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #fff;
+}
+
+
+footer {
+    background-color: #000;
+    color: #F4870F;
+    padding: 10px 25px;
