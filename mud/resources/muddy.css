@@ -1,0 +1,47 @@
+html {
+    max-width: 700px;
+    margin: auto;
+    background-color: brown;
+}
+
+body {
+    margin-top: 0;
+}
+
+/* Nav Bar */
+nav {
+    display: flex;
+    height: 36px;
+    width: auto;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #000;
+    background-color: white;
+    z-index: 1;
+    padding: 5px 18px;
+}
+
+.logo {
+    height: 20px;
+}
+
+ul, li {
+    display: inline;
+    list-style: none;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #000
+}
+
+.nav-right a:link {
+    text-decoration: none;
+    color:black;
+}
+
+.nav-right a:hover {
+    color: chocolate;
+}
+
+.nav-right a:active {
+    color: darkred;
+}
