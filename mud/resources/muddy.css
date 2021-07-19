@@ -289,6 +289,9 @@ footer {
 @media only screen and (max-width: 425px) {
     body {
         margin: 0;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
     }
     
     /* Nav Bar */
