@@ -17,7 +17,6 @@ nav {
     height: 36px;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #000;
     background-color: #000;
     padding: 5px 18px;
     border-bottom: 1px solid #F4870F;
@@ -218,39 +217,205 @@ footer {
     padding: 10px 25px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 425px) {
     body {
-        max-width: 100%;
+        margin: 0;
     }
+    
+    /* Nav Bar */
     nav {
+        position: relative;
+        top: 0;
         display: flex;
         flex-direction: column;
-        height: 100px;
+        height: 75px;
         align-items: center;
-        justify-content: center;
-        position: relative;
+        background-color: #000;
+        border-bottom: 1px solid #F4870F;
+        font-size: 12px;
+    }
+    
+    .logo {
+        height: 35px;
+        margin-bottom: 0;
+    }
+    
+    ul, li {
+        display: inline;
+        list-style: none;
+        text-transform: uppercase;
+        padding: 8px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 
-    .logo {
-        height: 50px;
-        margin-top: 25px;
+    nav li {
+        background-color: #F4870F;
+        border-radius: 10px;
+    }
+    
+    .nav-right a {
+        text-decoration: none;
+        color:#000;
+    }
+    
+    .nav-right a:hover {
+        color: #000;
+    }
+    
+    /* Header */
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        width: auto;
+        height: auto;
+    }
+    
+    .head-logo-back {
+        display: flex;
+        background-image: url(./wolfgang-hasselmann-7xEEADgBOeM-unsplash.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 200px;
+        width: auto;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .head-logo {
+        height: 75px;
+    }
+    
+    header h4 {
+        background-color: #000;
+        border-top: 1px solid #F4870F;
+        color: #ffc588;
+        text-align: center;
+        width: auto;
+        padding: 18px;
+        margin: 0;
+    }
+    
+    /* Main Area */
+    main {
+        display: flex;
+        flex-direction: column;
+        background-color: #ebd5c3;
+    }
+    
+    .featured {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 5px;
+    }
+    
+    .featured-left {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+    }
+    
+    .featured-left h2 {
+        font-family: almaq-rough, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        background-color:#7a2700;
+        color: #ff9422;
+        padding-top: 5px;
+        text-align: center;
+    }
+    
+    .featured-left a {
+        color:#7a3f00;
     }
 
     .featured-left a:hover {
         color: #000;
     }
-
+    
+    
+    .featured-right {
+        height: 250px;
+        width: 250px;
+        border: 5px solid #000000;
+    }
+    
+    .more {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        width: auto;
+        height: auto;
+        padding-bottom: 25px;
+        align-items: center;
+        justify-content: center;
+        background-color: #a17e5d;    
+    }
+    
+    .more h2 {
+        text-align: center;
+        background-color: rgb(71, 44, 22);
+        color: #F4870F;
+        margin-top: 0;
+        padding: 10px;
+        font-family: almaq-rough, sans-serif;
+        font-style: normal;
+        font-weight: 400;
+    }
+    
+    .products {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
     .prod {
         display: flex;
         flex-direction: column-reverse;
+        height: auto;
+        padding: 10px;
+        margin: 10px;
+        background-color: #613e21;
+        color: #F4870F;
+        border: 2px solid #ffbd86;
     }
-
-    .prod img {
-        width: 300px;
-        height: 300px;
-    }
-
+    
     .prodtext {
         width: auto;
+        padding-right: 5px;
+    }
+    
+    .prodtext h3{
+        margin-top: 0;
+        padding-top: 0;
+    }
+    
+    .more a{
+        color: #ffe1c1;
+    }
+    
+    .prodtext a:hover {
+        color: #FFF;
+    }
+    
+    .prodtext a:active {
+        color: #FFF
+    }
+    
+    .products img {
+        width: 300px;
+        height: 250px;
+        border: 1px solid #fff;
+    }
+    
+    
+    footer {
+        background-color: #000;
+        color: #F4870F;
+        padding: 10px 25px;
     }
 }
