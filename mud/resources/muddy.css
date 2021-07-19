@@ -381,11 +381,6 @@ footer {
         height: fit-content;
     }
     
-    .featured-left {
-        text-decoration: none;
-        margin: 0;
-        margin-bottom: 25px;
-    }
     
     .featured-left h2 {
         font-family: almaq-rough, sans-serif;
