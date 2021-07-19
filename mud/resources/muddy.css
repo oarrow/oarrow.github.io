@@ -390,6 +390,10 @@ footer {
         text-align: center;
     }
     
+    .featured-left p {
+        padding-bottom: 0;
+    }
+
     .featured-left a {
         color:#7a3f00;
     }
