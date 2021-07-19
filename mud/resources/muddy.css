@@ -88,6 +88,7 @@ main {
     background-color: #ebd5c3;
 }
 
+/* Featured */
 .featured {
     display: flex;
     flex-direction: row;
@@ -139,6 +140,7 @@ main {
     margin: 10px 20px;
 }
 
+/* More */
 .more {
     display: flex;
     flex-direction: column;
@@ -210,6 +212,7 @@ main {
     border: 1px solid #fff;
 }
 
+/* Contributors */
 .collaborators {
     display: flex;
     flex-direction: column;
@@ -278,14 +281,14 @@ main {
     margin-bottom: 6px;
 }
 
-
-
+/* Footer */
 footer {
     background-color: #000;
     color: #F4870F;
     padding: 10px 25px;
 }
 
+/* smaller screens */
 @media only screen and (max-width: 425px) {
     body {
         margin: 0;
